@@ -42,7 +42,7 @@ class Ordenador:
         meio = len(lista) // 2
 
         ladoEsquerdo = self.mergeSort(lista[:meio])
-        ladoDireito = self.mergeSort(lista[:meio])
+        ladoDireito = self.mergeSort(lista[meio:])
 
         return self.merge(ladoEsquerdo,ladoDireito)
 
