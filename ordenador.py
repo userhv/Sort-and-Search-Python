@@ -62,8 +62,9 @@ class Ordenador:
 
 def main():    
     lista = [random.randrange(100) for x in range(6)]
-    o = Ordenador()
-    o.selectSort(lista)
     print(lista)
+    o = Ordenador()
+    new_list = o.mergeSort(lista)
+    print(new_list)
 
 main()
