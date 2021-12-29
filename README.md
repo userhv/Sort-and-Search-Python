@@ -1,1 +1,1 @@
-# Coursera - Introdução a Ciencia da Computação com Python Parte II
+# Coursera - Introdução a Ciencia da Computação com Python Parte II - ofertado pela USP
